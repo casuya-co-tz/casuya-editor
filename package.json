@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/casuya/casuya-editor.git"
+    "url": "git+https://github.com/casuya-co-tz/casuya-editor.git"
   },
   "bugs": {
-    "url": "https://github.com/casuya/casuya-editor/issues"
+    "url": "https://github.com/casuya-co-tz/casuya-editor/issues"
   },
   "author": "Casuya",
   "license": "MIT",
   "engines": {
-    "node": ">=18"
+    "node": ">=22"
   },
   "keywords": [
     "education",

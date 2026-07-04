@@ -1,17 +1,29 @@
 {
-  "name": "casuya-editor",
+  "name": "@casuya/editor",
   "version": "0.1.0",
   "private": true,
   "description": "Visual lesson builder for Casuya — drag-and-drop educational content creation without programming.",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
-    "lint": "eslint . --ext ts,tsx",
+    "lint": "eslint .",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/casuya/casuya-editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/casuya/casuya-editor/issues"
+  },
+  "author": "Casuya",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
   },
   "keywords": [
     "education",
@@ -19,7 +31,6 @@
     "visual-editor",
     "casuya"
   ],
-  "license": "MIT",
   "dependencies": {},
   "devDependencies": {}
 }

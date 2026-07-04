@@ -36,7 +36,8 @@
     "versioning",
     "accessibility",
     "utilities",
-    "tests"
+    "tests",
+    "vite.config.ts"
   ],
   "exclude": ["node_modules", "dist"]
 }
